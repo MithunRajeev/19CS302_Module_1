@@ -3,7 +3,7 @@
 ## Aim:
 To write a program to check whether the attendance is PRESENT using simple if statement.
 
-## Algorithm
+## Algorithm:
 1. Start. 
 2. Declare a variable value of type char. 
 3. Prompt the user to enter a value. 
