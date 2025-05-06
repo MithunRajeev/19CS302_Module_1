@@ -14,23 +14,27 @@ To write a C program to calculate the total marks, average, and percentage of ma
 
 ## Program:
 ```
-#include <stdio.h> 
-int main() { 
-    int sub1, sub2, sub3, total; 
-    float average; 
-    scanf("%d %d %d", &sub1,&sub2,&sub3); 
-    total = sub1 + sub2 + sub3; 
-    average = total / 3.0; 
-    printf("\nTotal : %d\n", total); 
-    printf("Average : %.2f\n", average); 
-    return 0; 
-} 
+#include <stdio.h>
+int main()
+{
+    int marks[6];
+    int total = 0;
+    for (int i = 0; i < 6; i++)
+{
+        scanf("%d", &marks[i]);
+        total += marks[i];
+    }
+    float average = (float)total / 6;
+    float percentage = (float)(total * 100) / (6 * 100);
+    printf("Total marks = %.2f\n", (float)total);
+    printf("Average marks = %.2f\n", average);
+    printf("Percentage = %.2f\n", percentage);
+    return 0;
+}
 ```
-
 ## Output:
 
-![image](https://github.com/user-attachments/assets/ef557452-87c6-4a46-8235-b0ec5919d0d5)
-
+![Screenshot_6-5-2025_11534_training saveetha in](https://github.com/user-attachments/assets/5b55b761-9b55-4160-90bb-bfd3692c1b78)
 
 ## Result:
 Thus the program was executed and the output was verified successfully.
