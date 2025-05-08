@@ -22,8 +22,6 @@ int main()
     scanf("%d",&age);
     if(age>=21)
     printf("He is eligible for marriage\n");
-    else
-    printf("He is Not eligible for marriage\n");
     return 0;   
 }
 ```
