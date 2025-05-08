@@ -5,7 +5,7 @@ To write a C program to calculate the total marks, average, and percentage of ma
 
 ## Algorithm:
 1. Start. 
-2. Declare three variable value of type int for marks. 
+2. Declare six variable value of type int for marks. 
 3. Prompt the user to enter a value. 
 4. Read the value using scanf. 
 5. Find total and average. 
